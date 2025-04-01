@@ -7,7 +7,7 @@ labelSignUpName.setAttribute('for', 'sign-up-name');
 
 const inputSignUpName = document.getElementById('sign-up-name');
 
-inputSignUpName.parentNode.insertBefore(labelSignUpName, inputSignUpName);
+inputSignUpName.append(labelSignUpName);
 
 inputSignUpName.placeholder = 'Enter your name';
 
@@ -18,10 +18,7 @@ labelSignUpLastName.setAttribute('for', 'sign-up-last-name');
 
 const inputSignUpLastName = document.getElementById('sign-up-last-name');
 
-inputSignUpLastName.parentNode.insertBefore(
-  labelSignUpLastName,
-  inputSignUpLastName,
-);
+inputSignUpLastName.append(labelSignUpLastName);
 
 inputSignUpLastName.placeholder = 'Enter your last name';
 
@@ -32,7 +29,7 @@ labelSignUpEmail.setAttribute('for', 'sign-up-email');
 
 const inputSignUpEmail = document.getElementById('sign-up-email');
 
-inputSignUpEmail.parentNode.insertBefore(labelSignUpEmail, inputSignUpEmail);
+inputSignUpEmail.append(labelSignUpEmail);
 
 inputSignUpEmail.placeholder = 'Enter your password';
 
@@ -43,10 +40,7 @@ labelSignUpPassword.setAttribute('for', 'sign-up-password');
 
 const inputSignUpPassword = document.getElementById('sign-up-password');
 
-inputSignUpPassword.parentNode.insertBefore(
-  labelSignUpPassword,
-  inputSignUpPassword,
-);
+inputSignUpPassword.append(labelSignUpPassword);
 
 inputSignUpPassword.placeholder = 'Enter your password';
 
@@ -57,7 +51,7 @@ labelSignInEmail.setAttribute('for', 'sign-in-email');
 
 const inputSignInEmail = document.getElementById('sign-in-email');
 
-inputSignInEmail.parentNode.insertBefore(labelSignInEmail, inputSignInEmail);
+inputSignInEmail.append(labelSignInEmail);
 
 inputSignInEmail.placeholder = 'Enter your email';
 
@@ -68,9 +62,6 @@ labelSignInPassword.setAttribute('for', 'sign-in-password');
 
 const inputSignInPassword = document.getElementById('sign-in-password');
 
-inputSignInPassword.parentNode.insertBefore(
-  labelSignInPassword,
-  inputSignInPassword,
-);
+inputSignInPassword.append(labelSignInPassword);
 
 inputSignInPassword.placeholder = 'Enter your password';
